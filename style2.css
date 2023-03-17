@@ -108,12 +108,15 @@ label span {
   justify-content: space-between;
 }
 
+.column-2 .input-wrapper {
+  width: 100%;
+}
+
 .input-wrapper {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-top: 24px;
-  width: 100%;
 }
 
 .input-wrapper input, .input-wrapper select, .input-wrapper textarea{
